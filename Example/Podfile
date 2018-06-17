@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZZConfigsKit_Example' do
+  pod 'ZZConfigsKit', :path => '../'
+
+  target 'ZZConfigsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
